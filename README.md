@@ -1,7 +1,8 @@
 # DBMS_LABQUES
 DBMS  lab question answer
 WEEK 5 & 6 
-Question no.3 = Write a query to display employee id, employee name, salary, department name and project completion date from the above relations.
+
+Question 3 = Write a query to display employee id, employee name, salary, department name and project completion date from the above relations.
 sql command= 
 //
 
