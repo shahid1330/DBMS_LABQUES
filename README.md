@@ -33,3 +33,20 @@ INNER JOIN WORKS21013 ON EMP21013.EID = WORKS21013.EID
 INNER JOIN DEPT21013 ON DEPT21013.DID = WORKS21013.DID
 
 //
+
+Question : How to create table using foreign key and primary key
+//
+
+CREATE TABLE XYZ(
+DID int PRIMARY KEY,
+DNAME varchar(30),
+budget real,
+managerid int);
+
+CREATE TABLE ABC(
+EID int,
+Ename varchar(40),
+pcdate date,
+FOREIGN KEY (EID) REFERENCES XYZ(DID));
+
+//
